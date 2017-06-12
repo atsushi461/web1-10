@@ -15,6 +15,14 @@ header{
   text-align: center;
   background-color: red;
 }
+
+@media screen and (min-width:1025px){
+  #main{
+    max-width:1024px;
+    margin: auto;
+  }
+
+
 section{
   width: calc(70% - 20px);
   float:left;
@@ -26,6 +34,7 @@ section{
   float:left;
 }
 aside{
+  width: calc(100% - 20%);
   padding: 10px;
   background-color: green;
 }
@@ -42,11 +51,6 @@ footer{
 }
 
 
-@media screen and (min-width:1025px){
-  #main{
-    max-width:1024px;
-    margin: auto;
-  }
 
 @media screen and (max-width:640px){
 
