@@ -16,18 +16,36 @@ header{
   background-color: red;
 }
 section{
+  width: calc(70% - 20px);
+  float:left;
   padding: 10px;
   background-color: orange;
+}
+#side{
+  width: calc(1024px - 718px);
+  float:left;
 }
 aside{
   padding: 10px;
   background-color: green;
+}
+#main:after{
+  content:"";
+  display:block;
+  clear:both;
+}
 }
 footer{
   padding: 10px;
   background-color: blue;
   text-align: center;
 }
+
+@media screen and (min-width:1025px){
+  #main{
+    max-width:1024px;
+    margin: auto;
+  }
 
 @media screen and (max-width:640px){
   aside{
