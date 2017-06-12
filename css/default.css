@@ -11,14 +11,14 @@
   }
 }
 
-@media screen and (min-width:641px)and(max-width:980px){
-body{
-  background-color: green;
+@media screen and (min-width:641px) and (max-width:980px){
+   body{
+     background-color: green;
   }
 }
 
-@media screen and(min-width:981px){
-  body{
-    background-color: blue;
+@media screen and (min-width:981px){
+   body{
+       background-color: blue;
   }
 }
