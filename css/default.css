@@ -5,6 +5,25 @@ body{
   font-family: "Sawarabi Mincho"; 
 }
 
+header{
+  padding: 10px;
+  text-align: red;
+}
+section{
+  padding: 10px;
+  background-color: orange;
+}
+aside{
+  padding: 10px;
+  background-color: green;
+}
+footer{
+  padding: 10px;
+  background-color: blue;
+  text-align;
+}
+
+
 *{
   margin: 0;
   padding: 0;
